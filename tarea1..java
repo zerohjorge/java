@@ -4,7 +4,7 @@ stmt = conn.createStatement();
 rs = stmt.executeQuery(sql);
 if (rs.next()){
 	loggedIn = true;
-	out.println(Autenticado exitosamente);
+	out.println("Autenticado exitosamente");
 } else {
 	out.println("usuario y/o password noreconocida");
 }
